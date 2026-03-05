@@ -1,6 +1,6 @@
-package cz.tul.stin.kuryr;
+package cz.tul.stin.kuryr.shipping;
 
-public class TruckDelivery implements ShippingMethod{
+public class TruckDelivery implements ShippingMethod {
     private static final double BASE_PRICE =100;
     private static final double PRICE_PER_KG = 10;
     @Override

@@ -1,6 +1,6 @@
-package cz.tul.stin.kuryr;
+package cz.tul.stin.kuryr.shipping;
 
-public class BikeDelivery implements ShippingMethod{
+public class BikeDelivery implements ShippingMethod {
 
         private static final double FIXED_PRICE = 80;
         private static final double MAX_WEIGHT =5;
