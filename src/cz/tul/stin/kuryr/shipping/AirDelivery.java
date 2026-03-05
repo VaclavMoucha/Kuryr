@@ -1,6 +1,6 @@
-package cz.tul.stin.kuryr;
+package cz.tul.stin.kuryr.shipping;
 
-public class AirDelivery implements ShippingMethod{
+public class AirDelivery implements ShippingMethod {
 
         private static final double BASE_PRICE =300;
         private static final double PRICE_PER_KG = 25;
